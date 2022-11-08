@@ -1,0 +1,47 @@
+.Dropbenefits{
+    // background-color: lightgreen;
+    height: 500px;
+    margin-left: 280px;
+    margin-right: 280px;
+    position: relative;
+    padding: 0px;
+    .Benfits-Pill{
+        background: #ffc900;
+        font-size: 22px;
+        padding: 14px 50px;
+        min-width: 100px;
+        border-radius: 50px;
+        font-weight: 500;
+        display: inline-block;
+        position: relative;
+      z-index: 1;
+
+    }
+    .Exposure{
+        left: -160px;
+    }
+    .Positivity{
+        left: -200px;;
+    }
+    .Recognition{
+        left: -400px;
+    }
+    .Pr{
+        left: -800px;
+    }
+    .Excellence{
+        
+    }
+    .Networking{
+        left: 800px;
+    }
+    .Increase{
+        left: -50px;
+    }
+    .Diffren{
+        left: 320px;
+    }
+    .Showcase{
+        left: 100px;
+    }
+}

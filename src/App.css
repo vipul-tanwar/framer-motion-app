@@ -44,5 +44,39 @@
     padding: 0;
     left: 0;
     top: 0;
-    z-index: -1;
+    z-index: 1;
+}
+
+.App > .Header{
+    background-color: #4c3b36;
+    opacity: .8;
+    width: 100%;
+    position:sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+    height: 70px;
+   
+}
+.Header > .logo{
+    /* float: left; */
+    font-weight: 500;
+    color: white;
+    padding-left: 50px;
+}
+.Header > .nav-links{
+    /* float: left; */
+}
+.Header > .nav-links ul{
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+}
+.nav-links > ul > li {
+    list-style-type: none;
+    margin: 0px 10px 0px 10px;
+    font-weight: 500;
+    color: white;
 }

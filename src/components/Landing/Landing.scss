@@ -1,0 +1,47 @@
+.Landing{
+    
+    background-color: #462019;
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+    margin-top:20px;
+    .landing-circle{
+        height: 1400px;
+        width: 1400px;
+        right: -100px;
+        top: -500px;
+        border-radius: 100%;
+        background-color: white;
+        position: absolute;
+        z-index: 2;
+        overflow: hidden;
+        h1{
+            padding-top: 600px;
+        }
+    
+    }
+       
+}
+.Landing > h2{
+    float: left;
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+}
+.Landing > .landing-motion{
+    max-width: 400px;
+    color: white;
+    margin-left: 150px;
+    margin-top: 300px;
+
+}
+.landing-motion > h3{
+    text-align: left;
+    font-size: 36px;
+} 
+.landing-motion > p{
+    text-align: left;
+}
+
+
